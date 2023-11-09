@@ -10,13 +10,17 @@ It will create a `athena_pkgs` directory in the current path to put the pkgs in 
 
 ## Documentation
 
-#### Install a package:
+## Zeus Installation
+- You should have [Python installed](https://www.python.org/downloads/), version at least 3.8 or higher should be fine
+- `$ pip install -r requirements.txt` or `$ python -m pip install -r requirements.txt`
+
+#### Install a package in the current dir:
 
 ```sh
 $ python zeus.py -i pkg-name
 ```
 
-#### Update a package:
+#### Update a package in the current dir:
 
 \- At the time, it does the same as install: get from repo and overwrite the current version
 
@@ -24,13 +28,13 @@ $ python zeus.py -i pkg-name
 $ python zeus.py -u pkg-name
 ```
 
-#### Remove a package:
+#### Remove a package in the current dir:
 
 ```sh
 $ python zeus.py -r pkg-name
 ```
 
-#### Update all installed packages:
+#### Update all installed packages in the current dir:
 
 ```sh
 $ python zeus.py -a
@@ -57,3 +61,4 @@ $ python zeus.py -l (or --list)
   - Define a good path to install. Maybe at %appdata% like PHP Composer and VSCode do?
   - Automatic GitHub actions to compile with Nuitka, and release a tag + release object?
 - `zeus --init` or `zeus -in` command to create a lib from the current directory
+- unit tests
