@@ -3,7 +3,7 @@
 ![Zeus Logo](zeus-logo1.png)
 
 Zeus is a Package Manager for the [Athena Environment](https://github.com/DanielSant0s/AthenaEnv)  
-Athena is an Environment to develop games and apps using JavaScript, and this is its official package manager.
+Athena is an Environment to develop games and apps using JavaScript for PlayStation 2, and this is its official package manager.
 
 This package manager search for packages in this [Official AthenaEnv Packages Repository](https://github.com/terremoth/athenaenv-pkgs)  
 It will create a `athena_pkgs` directory in the current path to put the pkgs in it.
